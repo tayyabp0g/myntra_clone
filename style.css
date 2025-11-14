@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #696e79;
+}
+.logo{
+    height: 30px;
+
+
+}
+img{
+    height: 100%;
+}
+.nav{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    
+    
+}
+.nav a{
+ font-size: 14px;
+ letter-spacing: .3px;
+ color: #282c3f;
+ font-weight: 700;
+ text-transform: uppercase;
+ text-decoration:none;
+    padding: 15px 0;
+    border-bottom: 5px solid white;
+   
+}
+.nav a:hover{
+    border-bottom: 5px solid palevioletred;
+}
+.nav a sup{
+    color: red;
+    font-size: 10px;    
+}
+.search_bar{
+    display: flex;
+    height: 30px;
+    min-width: 400px;
+    width: 30%;
+align-items: center;
+  
+}
+
+.input_bar{
+color: #696e79;
+background-color: #f5f5f6;
+flex-grow: 1;
+height: 30px;
+   border: 0;
+   border-radius: 0 4px 4px 0;
+}
+.search_icon{
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.action_bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+.action_bar .material-symbols-outlined {
+    font-size: 28px;
+    cursor: pointer;
+    color: #282c3f;
+}
+.action_name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #282c3f;
+}
+.banner_container{
+    margin: 40px 0;
+}
+.baner{
+    width: 100%;
+    height: auto;
+}
+.category_heading{
+    font-size: 20px;
+     margin-bottom: 20px;
+    font-weight: 500;
+    color: #282c3f;
+    text-align: center;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+.sale_items{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
